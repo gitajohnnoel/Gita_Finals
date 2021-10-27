@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	background-color: #eb9a00;
+	
+}
+
+body {
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+nav .navbar-nav li a {
+	color: #f5f5f5 !important;
+}
+
+.navbar-collapse {
+	background-color: #eb9a00;
+}
+.nav-link {
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+.nav-item {
+	padding-left: 40px;
+}
+
+.headermain{
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+  }
+.header-text{
+	font-family: "Lato", "Verdana";
+	background-color: transparent;
+	color: #1a1a1a;
+  }
+.title-header {
+    padding: 20px;
+    font-size: 45px;
+	color: #1a1a1a;
+	font-weight: bolder;
+}
+header{
+	min-height: 100vh;
+	background-image:url(../img/portfoliobg.jpg);
+	background-size: cover;
+	background-position: center;
+  }
+.highlight {
+    padding:10px;
+    margin-left:5px;
+    width: 40%;
+    font-size: 15px;
+}
+.hobbies {
+    font-size: 15px;
+    list-style: none;
+}
+
+.project {
+    min-height: 100vh;
+}
+.progress-bar {
+    font-size: 11px;
+    font-weight: bold;
+    color: #1a1a1a;
+    background-color: #eb9a00;
+}
+.progress {
+    margin-left: 20px;
+    width: 95%;
+    height:20px;
+}
+.progress-title {
+    margin-left: 20px;
+    font-weight: bold;
+
+}
